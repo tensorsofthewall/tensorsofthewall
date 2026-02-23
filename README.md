@@ -1,6 +1,8 @@
 # 👋 Hi, I'm Sandesh (@tensorsofthewall)
 
-I'm a software engineer and AI researcher passionate about building intelligent systems and meaningful technology. My experience spans computer vision, reinforcement learning, generative AI, and more recently, music/audio. I enjoy collaborating on research, developing real-world applications, and occasionally making robots smarter (or at least funnier).
+I'm a research engineer working on large-scale multimodal AI systems that see, reason, and operate under real-world constraints. My work spans computer vision, vision-language models, reinforcement learning, distributed training, and more recently, music/audio modeling.  
+
+I enjoy building systems that move beyond benchmarks — from autonomous navigation to distributed inference pipelines — and occasionally making robots smarter (or at least slightly less confused).
 
 ---
 
@@ -8,36 +10,52 @@ I'm a software engineer and AI researcher passionate about building intelligent 
 
 <div align="left">
 
-### Programming Languages
-[![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=for-the-badge)](https://www.python.org/)
-[![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge)](https://isocpp.org/)
-[![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=for-the-badge)](https://www.java.com/)
-[![Scala](https://img.shields.io/badge/-Scala-DC322F?logo=scala&logoColor=white&style=for-the-badge)](https://www.scala-lang.org/)
-[![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)](https://www.typescriptlang.org/)
+### Languages
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
+![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white&style=flat)
+![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=flat)
+![Bash](https://img.shields.io/badge/-Bash-4EAA25?logo=gnubash&logoColor=white&style=flat)
 
-### Machine Learning & Deep Learning
-[![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=for-the-badge)](https://pytorch.org/)
-[![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge)](https://www.tensorflow.org/)
-[![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?logo=scikitlearn&logoColor=white&style=for-the-badge)](https://scikit-learn.org/)
-[![HuggingFace](https://img.shields.io/badge/-Huggingface-FFD21F?logo=huggingface&logoColor=white&style=for-the-badge)](https://huggingface.co/)
-[![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white&style=for-the-badge)](https://opencv.org/)
-[![NumPy](https://img.shields.io/badge/-NumPy-013243?logo=numpy&logoColor=white&style=for-the-badge)](https://numpy.org/)
-[![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white&style=for-the-badge)](https://pandas.pydata.org/)
-[![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?logo=matplotlib&logoColor=white&style=for-the-badge)](https://matplotlib.org/)
+---
 
-### Data Science/Analysis
-[![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?logo=jupyter&logoColor=white&style=for-the-badge)](https://jupyter.org/)
-[![Apache Spark](https://img.shields.io/badge/-Apache%20Spark-E25A1C?logo=apachespark&logoColor=white&style=for-the-badge)](https://spark.apache.org/)
-[![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=sqlite&logoColor=white&style=for-the-badge)](https://www.sqlite.org/)
-[![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?logo=elasticsearch&logoColor=white&style=for-the-badge)](https://www.elastic.co/)
+### Multimodal AI
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat)
+![HuggingFace](https://img.shields.io/badge/-HuggingFace-FFD21F?logo=huggingface&logoColor=black&style=flat)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=flat)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white&style=flat)
+![vLLM](https://img.shields.io/badge/-vLLM-black?style=flat)
 
-### Cloud, MLOps, & DevOps
-[![AWS](https://img.shields.io/badge/-AWS-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge)](https://aws.amazon.com/)
-[![GCP](https://img.shields.io/badge/-GCP-4285F4?logo=googlecloud&logoColor=white&style=for-the-badge)](https://cloud.google.com/)
-[![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)](https://www.docker.com/)
-[![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=for-the-badge)](https://git-scm.com/)
-[![Jira](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white&style=for-the-badge)](https://www.atlassian.com/software/jira)
-[![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge)](https://fastapi.tiangolo.com/)
+- Multimodal LLMs & Vision-Language Models  
+- Long-context training (24K+ tokens)  
+- SFT & DPO  
+- Synthetic data generation  
+- Large-scale evaluation pipelines  
+
+---
+
+### Distributed Training & Inference
+![SLURM](https://img.shields.io/badge/-SLURM-black?style=flat)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat)
+![Apache Spark](https://img.shields.io/badge/-Apache%20Spark-E25A1C?logo=apachespark&logoColor=white&style=flat)
+
+- PyTorch DDP & FSDP  
+- Tensor / Pipeline / Context Parallelism  
+- Multi-node GPU clusters (up to 32 nodes)  
+- Distributed inference (100B+ models)  
+- 3B+ tokens/day serving pipelines  
+
+---
+
+### Data & Systems
+![NumPy](https://img.shields.io/badge/-NumPy-013243?logo=numpy&logoColor=white&style=flat)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white&style=flat)
+![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?logo=elasticsearch&logoColor=white&style=flat)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=sqlite&logoColor=white&style=flat)
+
+- Spark data pipelines  
+- Retrieval-augmented systems (RAG)
+- Throughput & latency optimization  
+- Heterogeneous GPU deployment (AMD & NVIDIA)
 
 </div>
 
@@ -46,23 +64,32 @@ I'm a software engineer and AI researcher passionate about building intelligent 
 ## 🌟 Featured Projects
 
 - [**BetterSearch**](https://github.com/tensorsofthewall/BetterSearch)  
-  Desktop app integrating LLMs, advanced RAG, and native OS functionality for file search and content indexing. Features text-to-SQL with osquery, device management, and both local/cloud LLM options.
+  Desktop application integrating LLMs, advanced RAG, and native OS functionality for semantic file search. Supports text-to-SQL via osquery, CPU/GPU customization, and local/cloud deployment modes.
+
+- [**Exo**](https://github.com/exo-explore/exo)  
+  Distributed inference framework for running LLMs across heterogeneous device clusters. Contributed AMD GPU support improvements and llama.cpp Windows backend integration.
 
 - [**VidTune**](https://github.com/tensorsofthewall/VidTune)  
-  Generative AI web app for tailored music creation for videos, with genre, tempo, keyword, and mixing customization.
+  Generative AI web app for tailored music creation for videos, with genre, tempo, keyword, and dynamic mixing customization.
 
-- [**Unified Local-Cloud Decision-Making**](https://github.com/diasengupta/UniLCD)  
-  Research codebase for residual reinforcement learning in embodied vision systems, balancing energy, latency, and safety by dynamic cloud-edge offloading. Presented at ECCV 2024.
+- [**Unified Local-Cloud Decision-Making (UniLCD)**](https://github.com/diasengupta/UniLCD)  
+  Residual reinforcement learning framework for cloud-edge collaboration in embodied vision systems. Presented at ECCV 2024.
 
 - [**Autonomous Underwater Vehicle**](https://auviiitdm.github.io/)  
-  Led team to Singapore AUV Challenge finals. Developed navigation, vision, and electronics, and integrated the Sea-Thru water-removal algorithm for underwater object detection.
+  Led team to Singapore AUV Challenge finals. Built navigation, perception, and embedded systems; integrated enhanced underwater vision algorithms.
 
 ---
 
 ## 🏅 Publications
 
-- **ECCV 2024:** [Unified Local-Cloud Decision-Making via Residual Reinforcement Learning](https://unilcd.github.io/)
-- **ETCCS 2020:** [Person Re-Identification by Analyzing Dynamic Variations in Gait Sequences](https://link.springer.com/chapter/10.1007/978-981-15-7804-5_30)
+- **ACL 2026 (Under Review):**  
+  *WellLogBench: A Domain-Expert Curated Benchmark for Evaluating LLM Reasoning on Subsurface Well Log Data*
+
+- **ECCV 2024:**  
+  [Unified Local-Cloud Decision-Making via Residual Reinforcement Learning](https://unilcd.github.io/)
+
+- **ETCCS 2020:**  
+  [Person Re-Identification by Analyzing Dynamic Variations in Gait Sequences](https://link.springer.com/chapter/10.1007/978-981-15-7804-5_30)
 
 ---
 
@@ -70,43 +97,47 @@ I'm a software engineer and AI researcher passionate about building intelligent 
 
 ### Research
 
-- **[LossFunk](https://lossfunk.com/initialize/)** — Independent Researcher (June 2025 – Present, Bangalore, India)  
-  Pursuing original research in AI and music (source separation).
+- **Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)** — Research Engineer I (Aug 2025 – Present, Abu Dhabi, UAE)  
+  Training and post-training multimodal LLMs and VLMs for domain-specific reasoning (Multimodal Energy GPT).  
+  - 70B-class model SFT and DPO across multi-node GPU clusters  
+  - Distributed inference for 235B models (3B+ tokens/day, 32 nodes)  
+  - Synthetic data generation and large-scale evaluation pipelines  
 
-- **[Human-to-Everything (H2X) Lab, Boston University](https://eshed1.github.io/)** — Visiting Researcher / Graduate Research Assistant (Mar 2023 – Mar 2025, Boston, MA)  
-  Enhanced vision-language models for autonomous driving, cloud-edge collaboration, state-of-the-art navigation metrics, crowd navigation environments, and multi-robot visual servoing.
+- **LossFunk (Initialize Program)** — Researcher (June 2025 – Present)  
+  Independent research on MIDAS, a modular framework for music source separation.
 
-- **[Boston University](https://www.bu.edu/)** — Teaching Assistant (Jan 2024 – May 2024, Boston, MA)  
-  Assisted with courses on cyber-physical and IoT systems.
+- **Human-to-Everything (H2X) Lab, Boston University** — Research Engineer / Graduate Research Assistant (Mar 2023 – Mar 2025)  
+  Vision-language models for autonomous driving, cloud-edge routing, energy-aware navigation, reinforcement learning, and embodied AI systems.
 
-- **[Robert Bosch GmbH](https://www.bosch.com/research/)** — Research Intern (Jan 2020 – June 2020, Bangalore, India)  
-  Open-set classification for rare objects, predictive maintenance algorithms.
+- **Robert Bosch GmbH** — Research Intern (Jan 2020 – June 2020)  
+  Open-set classification and predictive maintenance for vehicular systems.
 
-- **[Center for Development of Advanced Computing (CDAC)](https://cdac.in/)** — Research Intern (May 2019 – Oct 2019, Kolkata, India)  
-  Person re-identification via dynamic gait analysis; best accuracy on CASIA-B dataset.
+- **Center for Development of Advanced Computing (C-DAC)** — Research Intern (May 2019 – Oct 2019)  
+  Gait-based person re-identification (91.13% accuracy on CASIA-B).
 
 ### Industry
 
-- **[Ottometric Inc.](https://ottometric.com/)** — Software Engineering Intern (June 2023 – Aug 2023, Waltham, MA)  
-  Data summarization algorithms for Ottoviz platform, submodular optimization.
+- **Ottometric Inc.** — Software Engineering Intern (June 2023 – Aug 2023)  
+  Submodular optimization for dataset summarization and efficient model training.
 
-- **[Ignitarium Technology Solutions](https://ignitarium.com/)** — Software Engineer (AI & ML) (Jan 2022 – July 2022, Bangalore, India)  
-  Inference optimization on accelerator chips, kernel development, workflow streamlining.
+- **Ignitarium Technology Solutions** — AI Engineer (Jan 2022 – July 2022)  
+  High-performance INT8 kernel development for accelerator hardware (30% inference improvement).
 
-- **[Synopsys India](https://www.synopsys.com/)** — Software Engineer (Jan 2021 – Jan 2022, Bangalore, India)  
-  Data pipelines (Apache Spark), anomaly detection (BERT), log analysis systems.
+- **Synopsys India** — Software Engineer (Jan 2021 – Jan 2022)  
+  Apache Spark pipelines, BERT-based anomaly detection, unified production log systems.
 
-- **[Thermo Fisher Scientific India Pvt. Ltd.](https://thermofisher.com/)** — Summer Intern (May 2018 – July 2018, Hyderabad, India)  
-  ARM hardware upgrades, embedded C++, UI with Qt5 and Linux Yocto.
+- **Thermo Fisher Scientific** — Summer Intern (May 2018 – July 2018)  
+  Embedded C++ development on ARM hardware; Linux Yocto + Qt systems.
 
 ---
 
 ## 🎓 Education
 
-- **[Boston University](https://www.bu.edu/)**  
+- **Boston University**  
   M.S. in Computer Science (Sep 2022 – May 2024)  
+  Thesis: *Efficient Vision and Language Models for Autonomous Systems*
 
-- **[IIITDM Kancheepuram](https://www.iiitdm.ac.in/)**  
+- **IIITDM Kancheepuram**  
   B.Tech. + M.Tech. in Electronics and Communication Engineering (July 2015 – June 2020)
 
 ---
@@ -125,4 +156,6 @@ I'm a software engineer and AI researcher passionate about building intelligent 
 
 ---
 
-> Always curious. Occasionally sarcastic. Building the future, one line of code at a time.
+> Teaching machines to see.  
+> Scaling models responsibly.  
+> Occasionally arguing with SLURM.
