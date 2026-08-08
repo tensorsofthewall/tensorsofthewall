@@ -82,7 +82,7 @@ I enjoy building systems that move beyond benchmarks — from autonomous navigat
 
 ## 🏅 Publications
 
-- **ACL 2026 (Under Review):**  
+- **Under Review:**  
   *WellLogBench: A Domain-Expert Curated Benchmark for Evaluating LLM Reasoning on Subsurface Well Log Data*
 
 - **ECCV 2024:**  
